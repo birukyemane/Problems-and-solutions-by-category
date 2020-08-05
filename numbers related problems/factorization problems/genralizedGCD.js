@@ -22,7 +22,7 @@ function isDivider(num, arr){
     arr.forEach(elt=>{
         if(elt % num !==0){
             divides = false;
-        }   
+        }    
     });
     return divides;
 }
